@@ -29,6 +29,10 @@ DESKTOP.EventBind = function () {
     });
 }
 
+DESKTOP.ToggleStartMenu = function () {
+    $(".startmenu").toggle();
+}
+
 ///桌面初始化
 DESKTOP.Initial = function () {
     DESKTOP.EventBind();

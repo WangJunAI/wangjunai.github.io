@@ -13,8 +13,23 @@
 .dockTop {
     /*桌面顶部 #373d41*/
     background-color: #373d41;
-    height: 3em;
+    height: 2em;
 }
+
+    .dockTop .topbtn1 {
+        color: white;
+        text-decoration: none;
+        margin-left: 0.25em;
+    }
+
+    .dockTop .text1 {
+        color: white;
+        margin-left: 0.25em;
+        line-height: 1.1em;
+        vertical-align: middle;
+        display: inline-block;
+        height: 2em;
+    }
 
 .dockDown {
     /*桌面底部 #373d41*/
@@ -24,6 +39,15 @@
     bottom: 0;
     width: 100%;
 }
+
+    .dockDown .topbtn1 {
+        color: white;
+        text-decoration: none;
+        line-height: 2em;
+        margin-left: 0.5em;
+    }
+
+
 
 
 .desktopIcon {
@@ -45,12 +69,19 @@
         margin: 0 0 0.5em 0;
     }
 
+        .desktopIcon .item .icon {
+            width: 100%;
+            line-height: 2em;
+            text-align: center;
+            color:white;
+        }
     .desktopIcon .item_name {
         position: relative;
-        top: 5.5em;
-        right:0.5em;
-        color:white;
+        top: -0.5em;
+        right: 0.5em;
+        color: white;
     }
+
 
 
 .desktop_dialog {
@@ -94,4 +125,35 @@
         top: 2em;
         right: 0;
         bottom: 0;
+    }
+
+
+.startmenu {
+    position: absolute;
+    background-color: #2a2f32;
+    width: 23em;
+    height: 80%;
+    z-index: 999;
+    left: 0.5em;
+    bottom: 2em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display:none;
+}
+
+    .startmenu ul {
+        list-style: none;
+        margin: 1em 0 0 -1em;
+    }
+
+    .startmenu a {
+        text-decoration: none;
+        color:white;
+        display:block;
+        width:100%;
+        height:3em;
+    }
+
+    .startmenu li span:first-child {
+        margin-right:.5em;
     }
