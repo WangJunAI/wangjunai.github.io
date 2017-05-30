@@ -11,7 +11,7 @@ var DESKTOP = {
 ///创建一个对话框
 DESKTOP.CreateDialog = function () {
     var id = "test";
-    var url ="http://www.toutiao.com";
+    var url ="../../UI/APP/THS/THS.html";
     var html ='<div class="desktop_dialog" id="'+id+'">'
         + '<div class="title"><a href="javascript:void(0)" class="name">浏览器</a><a href="javascript:void(0)" class="button" onclick="$(this).parents(\'.desktop_dialog\').remove()">关闭</a><a href="javascript:void(0)" class="button">最大化</a><a href="javascript:void(0)" class="button">最小化</a></div>'
             +'<iframe style="border:none; width:100%;height:90%;" src="'+url+'"></iframe>'

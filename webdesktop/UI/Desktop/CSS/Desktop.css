@@ -90,6 +90,7 @@
     position: absolute;
     z-index: 2000;
     border: 1px #808080 solid;
+    background-color: #ff9900;
 }
 
     .desktop_dialog .title {
